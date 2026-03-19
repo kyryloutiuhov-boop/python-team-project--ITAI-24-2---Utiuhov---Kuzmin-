@@ -14,7 +14,7 @@ def main():
     strength = check_strength(password)
 
     print("\nЗгенерований пароль:", password)
-    print("Довжина:", strength)
+    print("Надійність паролю:", strength)
 
 
 if __name__ == "__main__":
