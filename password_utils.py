@@ -28,5 +28,5 @@ def check_strength(password: str) -> str:
     elif length >= 8:
         return "Середній"
     else:
-
         return "Слабкий"
+
