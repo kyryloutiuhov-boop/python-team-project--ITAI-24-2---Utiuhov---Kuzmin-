@@ -29,4 +29,3 @@ def check_strength(password: str) -> str:
         return "Середній"
     else:
         return "Слабкий"
-
