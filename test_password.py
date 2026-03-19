@@ -20,3 +20,10 @@ def test_check_strength():
     assert check_strength("abc") == "Слабкий"
     assert check_strength("abcdefgh") == "Середній"
     assert check_strength("Abc123!@#xyz") == "Сильний"
+
+if __name__ == "__main__":
+    test_generate_password_length()
+    test_generate_password_with_digits()
+    test_generate_password_without_digits()
+    test_check_strength()
+    print("All tests passed ✅")
