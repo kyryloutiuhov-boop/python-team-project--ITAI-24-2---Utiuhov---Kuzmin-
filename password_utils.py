@@ -24,8 +24,8 @@ def check_strength(password: str) -> str:
     has_symbol = any(c in "!@#$%^&*()" for c in password)
 
     if length >= 12 and has_digit and has_symbol:
-        return "Strong"
+        return "Сильний"
     elif length >= 8:
-        return "Medium"
+        return "Середній"
     else:
-        return "Weak"
+        return "Слабкий"
